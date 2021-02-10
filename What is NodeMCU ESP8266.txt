@@ -1,0 +1,37 @@
+NodeMCU ESP8266
+
+Node MicroController Unit is an open-source development board used for IoT based Applications.
+Firmware runs on the ESP8266 Wi-Fi SoC, and hardware based on the ESP-12 module.
+
+1) More Powerful than our traditional Arduino UNO Board.
+2) More memory and also more processing power.
+3) Built-in WiFi Module.
+4) Small-sized and comes with MicroUSB port.
+5) Can be operated with input 7-12V.
+6) Can be programed with Arduino IDE.
+
+Operating Voltage: 3.3V
+Input Voltage: 7-12V
+1 Analog Input Pin
+16 General Purpose Input-Output(GPIO) pins
+4 pins for SPI communication.
+2 UART Pins
+1 I2C Pins
+80MHz to 160 MHz adjustable clock frequency
+
+L298N Motor Driver is a high power motor driver module consists of an L298 motor driver IC and a 5V regulator. Can control up to 4 DC motors with directional and speed control.
+
+After uploading the code, we connect the whole circuit with the Power Supply, then the NodeMCU creates a server with the given Blynk Authentication Token, SSID and the Password and connects with the Hotspot. Then we have to download, install and configure the Blynk Cloud App. Whatever the input instructions are received from the joystick of the Blynk Cloud App, the Wi-Fi module receives the instructions and the NodeMCU processes the information. After that the NodeMCU instructs the Motor Driver IC to supply power to the 2 motors according to the input given by the user.
+
+Further Enhancement:
+• The on board batteries occupy a lot of space and are also quite heavy. We can either
+use some alternate power source for the batteries or replace the current DC Motors
+with ones which require less power.
+• The proposed system is applicable in hazardous environment where a camera can
+be attached to the robot and can be viewed by the user who is in his station. This
+system can also be employed in medical field where miniature robot are created
+that can help doctors for efficient surgery operations.
+
+
+Arduino Uno consists of 14 digital i/o pins, 6 analog input pins.
+Raspberry Pi consists of 40 GPIO pins.
